@@ -12,4 +12,4 @@ Returns "CA"
 const zip = 94610
 
 `GET https://zip-to-state.herokuapp.com/check/ + zip` <br>
-Returns "Ca"
+Returns "CA"
