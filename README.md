@@ -3,8 +3,12 @@
 An api to get the 2 char state code from a zip code
 
 Example:
-`http://localhost:5000/check/32004`
+`https://zip-to-state.herokuapp.com/check/32004`
 Returns "FL"
 
-`http://localhost:5000/check/94610`
+`https://zip-to-state.herokuapp.com/check/94610`
 Returns "CA"
+
+const zip = 94610
+
+`GET https://zip-to-state.herokuapp.com/check/ + zip`
